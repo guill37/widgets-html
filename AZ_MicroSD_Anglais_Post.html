@@ -1,0 +1,43 @@
+<div style="max-width: 800px; margin: 0 auto; overflow: hidden; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9; padding: 20px;">
+  <div class="carousel" style="display: flex; transition: transform 0.5s ease-in-out;">
+    <div style="text-align: center; flex: 0 0 100%; box-sizing: border-box; padding: 10px;">
+      <img src="https://static.wixstatic.com/media/04c1fc_a74e94ce0fb34ceb993776df56bb0461~mv2.jpg" alt="SanDisk Extreme Pro" style="width: 100%; max-width: 200px; border-radius: 10px;">
+      <h3>SanDisk Extreme Pro</h3>
+      <p>Note : 4,8/5</p>
+      <div style="color: #FFD700; font-size: 20px;">
+        ★ ★ ★ ★ ★
+      </div>
+      <a href="https://geni.us/YE6Wv" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #ff9900; color: #fff; text-decoration: none; border-radius: 5px;">Buy on Amazon</a>
+    </div>
+    <div style="text-align: center; flex: 0 0 100%; box-sizing: border-box; padding: 10px;">
+      <img src="https://static.wixstatic.com/media/04c1fc_67956fb6d83b4e3c946798ddc292173e~mv2.jpg" alt="Lexar Professional 1066X" style="width: 100%; max-width: 200px; border-radius: 10px;">
+      <h3>Lexar Professional 1066X</h3>
+      <p>Note : 4,6/5</p>
+      <div style="color: #FFD700; font-size: 20px;">
+        ★ ★ ★ ★ ★
+      </div>
+      <a href="https://geni.us/jHpR" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #ff9900; color: #fff; text-decoration: none; border-radius: 5px;">Buy on Amazon</a>
+    </div>
+    <div style="text-align: center; flex: 0 0 100%; box-sizing: border-box; padding: 10px;">
+      <img src="https://static.wixstatic.com/media/04c1fc_4041412daad742c5ba7ba52832afedfd~mv2.jpg" alt="Samsung Pro Ultimate" style="width: 100%; max-width: 200px; border-radius: 10px;">
+      <h3>Samsung Pro Ultimate</h3>
+      <p>Note : 4,7/5</p>
+      <div style="color: #FFD700; font-size: 20px;">
+        ★ ★ ★ ★ ★
+      </div>
+      <a href="https://geni.us/bwIsv5" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #ff9900; color: #fff; text-decoration: none; border-radius: 5px;">Buy on Amazon</a>
+    </div>
+  </div>
+  
+</div>
+
+<script>
+  let currentIndex = 0;
+  function moveCarousel(direction) {
+    const carousel = document.querySelector('.carousel');
+    const items = carousel.children.length;
+    currentIndex = (currentIndex + direction + items) % items;
+    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+  setInterval(() => moveCarousel(1), 3000);
+</script>
