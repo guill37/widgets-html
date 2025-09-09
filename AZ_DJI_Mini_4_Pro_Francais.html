@@ -1,0 +1,84 @@
+<!-- Widget produit : DJI Mini 4 Pro -->
+<div class="dc-widget-mini4" role="complementary" aria-label="Widget DJI Mini 4 Pro">
+  <style>
+    .dc-widget-mini4{
+      --bg:#ffffff;--card:#f8fafc;--ink:#0f172a;--muted:#475569;--ring:#e2e8f0;
+      --accent1:#6366f1;--accent2:#22d3ee;--accent:linear-gradient(135deg,var(--accent1),var(--accent2));
+      max-width:940px;margin:24px auto;border:1px solid var(--ring);border-radius:18px;background:var(--bg);
+      box-shadow:0 10px 28px rgba(15,23,42,.08);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;
+      color:var(--ink);overflow:hidden
+    }
+    @media (prefers-color-scheme: dark){
+      .dc-widget-mini4{--bg:#0b1220;--card:#0f172a;--ink:#e5e7eb;--muted:#94a3b8;--ring:#1f2937}
+    }
+    .dcw-wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:0}
+    @media (max-width:860px){.dcw-wrap{grid-template-columns:1fr}}
+    .dcw-media{position:relative;background:var(--card)}
+    .dcw-badge{
+      position:absolute;top:12px;left:12px;background:var(--accent);color:#fff;
+      padding:6px 12px;border-radius:999px;font-size:12px;font-weight:800;
+      box-shadow:0 8px 18px rgba(34,211,238,.25)
+    }
+    .dcw-img{display:block;width:100%;height:auto;object-fit:cover;aspect-ratio:4/3}
+    .dcw-body{padding:22px 22px 18px 22px}
+    .dcw-title{font-weight:900;font-size:clamp(18px,3vw,24px);letter-spacing:.2px;margin:0 0 6px}
+    .dcw-sub{font-size:14px;color:var(--muted);margin:0 0 12px}
+    .dcw-bullets{margin:10px 0 14px;display:grid;gap:8px;padding-left:18px}
+    .dcw-bullets li{font-size:14px;line-height:1.4}
+    .dcw-cta{display:flex;gap:10px;flex-wrap:wrap}
+    .dcw-btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 16px;border-radius:12px;font-weight:900;font-size:14px;text-decoration:none;
+      transition:transform .06s ease, box-shadow .2s ease
+    }
+    .dcw-btn:active{transform:translateY(1px)}
+    .dcw-buy{background:var(--accent);color:#fff;box-shadow:0 12px 20px rgba(34,211,238,.22)}
+    .dcw-ghost{background:transparent;border:1px solid var(--ring);color:var(--ink)}
+    .dcw-note{margin:12px 2px 0;font-size:12px;color:var(--muted)}
+    /* Petite étiquette en coin sur mobile */
+    @media (max-width:860px){
+      .dcw-badge{top:10px;left:10px}
+    }
+    /* Icône panier minimaliste */
+    .ico{width:18px;height:18px;vertical-align:-3px}
+  </style>
+
+  <div class="dcw-wrap">
+    <!-- MEDIA -->
+    <figure class="dcw-media">
+      <span class="dcw-badge">Aérien cinématique</span>
+      <img
+        class="dcw-img"
+        src="https://droneandcam.com/wp-content/uploads/2025/08/dji-mini-4-pro__1200_900__overflow-1024x768.avif"
+        alt="DJI Mini 4 Pro en vol : drone compact pour plans aériens cinématiques">
+    </figure>
+
+    <!-- CONTENT -->
+    <div class="dcw-body">
+      <h3 class="dcw-title">DJI Mini 4 Pro</h3>
+      <p class="dcw-sub">Le choix léger (≤ 249 g) pour des plans aériens spectaculaires et une sécurité renforcée.</p>
+
+      <ul class="dcw-bullets">
+        <li>Vidéo 4K fluide jusqu’à 100 fps</li>
+        <li>Détection d’obstacles <strong>omnidirectionnelle</strong> + ActiveTrack 360°</li>
+        <li>Transmission O4, portée et stabilité améliorées</li>
+        <li>Jusqu’à ~45 min d’autonomie avec batterie Plus*</li>
+      </ul>
+
+      <div class="dcw-cta">
+        <a class="dcw-btn dcw-buy" href="https://geni.us/UwBtn" target="_blank" rel="noopener noreferrer sponsored" aria-label="Acheter DJI Mini 4 Pro">
+          <!-- Icône panier -->
+          <svg class="ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 8H7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="10" cy="20" r="1.6" fill="currentColor"/><circle cx="18" cy="20" r="1.6" fill="currentColor"/>
+          </svg>
+          Acheter Mini 4 Pro
+        </a>
+        <a class="dcw-btn dcw-ghost" href="#mini4pro-details">En savoir plus</a>
+      </div>
+
+      <p class="dcw-note">*L’autonomie dépend des conditions de vol. Certains liens peuvent être affiliés.</p>
+    </div>
+  </div>
+</div>
+<!-- /Widget produit -->
