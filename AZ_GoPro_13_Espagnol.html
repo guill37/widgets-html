@@ -1,0 +1,89 @@
+<style>
+#amazon-widget {
+  border: 1px solid #ddd;
+  padding: 15px;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+  overflow: hidden; /* evita el desplazamiento lateral */
+}
+
+#amazon-widget:hover {
+  transform: scale(1.05);
+}
+
+#amazon-widget img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#amazon-widget h3 {
+  margin-top: 15px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+#amazon-widget p {
+  font-size: 1em;
+  color: #777;
+  margin: 10px 0;
+}
+
+#amazon-widget a.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #ffa41c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#amazon-widget a.button:hover {
+  background-color: #ff8c00;
+}
+
+@media (max-width: 600px) {
+  #amazon-widget {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #amazon-widget h3 {
+    font-size: 1.2em;
+  }
+
+  #amazon-widget a.button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
+
+#amazon-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+</style>
+
+<div id="amazon-widget">
+  <a href="https://geni.us/szzCzjD" target="_blank" style="text-decoration: none; color: inherit;">
+    <img src="https://m.media-amazon.com/images/I/71N8tXSQraL._AC_SL1500_.jpg" alt="Cámara GoPro">
+    <h3>¡Oferta increíble en GoPro - No la dejes escapar!</h3>
+  </a>
+  <p>Descubre la cámara de acción GoPro y captura tus aventuras como nunca antes. ¡Prepárate para inmortalizar cada momento con una calidad excepcional!</p>
+  <a href="https://geni.us/szzCzjD" target="_blank" class="button">GoPro en oferta: ¡Consíguela ahora!</a>
+  <div id="amazon-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png" alt="Logo de Amazon" style="max-width: 40%; height: auto;">
+  </div>
+</div>
